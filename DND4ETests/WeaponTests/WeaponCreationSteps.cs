@@ -35,6 +35,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new Sickle();
                     break;
 
+                case "Spear":
+                    weapon = new Spear();
+                    break;
+
                 default:
                     break;
             }

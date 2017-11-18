@@ -175,6 +175,7 @@ this.ScenarioSetup(scenarioInfo);
         [NUnit.Framework.DescriptionAttribute("OneHandNoRangeOneGroupOneProperty")]
         [NUnit.Framework.TestCaseAttribute("Mace", "2", "1", "8", "5", "6", "Mace", "Versatile", null)]
         [NUnit.Framework.TestCaseAttribute("Sickle", "2", "1", "6", "2", "2", "Light Blade", "Off-Hand", null)]
+        [NUnit.Framework.TestCaseAttribute("Spear", "2", "1", "8", "5", "6", "Spear", "Versatile", null)]
         public virtual void OneHandNoRangeOneGroupOneProperty(string weapon, string prof, string dienum, string diesize, string cost, string weight, string group, string prop, string[] exampleTags)
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("OneHandNoRangeOneGroupOneProperty", exampleTags);
