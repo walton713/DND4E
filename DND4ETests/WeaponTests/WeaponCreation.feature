@@ -56,3 +56,20 @@ Scenario Outline: OneHandWithRangeOneGroupOneProperty
 	Examples: 
 	| weapon  | prof | dienum | diesize | short | long | cost | weight | group | prop         |
 	| Javelin | 2    | 1      | 6       | 10    | 20   | 5    | 2      | Spear | Heavy Thrown |
+
+Scenario Outline: OneHandNoRangeOneGroupOneProperty
+	Given I have a "<weapon>"
+	Then it has the name "<weapon>"
+	And a <prof> proficiency bonus
+	And a die number of <dienum>
+	And a die size of <diesize>
+	And no range
+	And a cost of <cost>
+	And a weight of <weight>
+	And a group of "<group>"
+	And the "<prop>" property
+	And is One-Handed
+
+	Examples: 
+	| weapon | prof | dienum | diesize | cost | weight | group | prop      |
+	| Mace   | 2    | 1      | 8       | 5    | 6      | Mace  | Versatile |

@@ -27,6 +27,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new Javelin();
                     break;
 
+                case "Mace":
+                    weapon = new Mace();
+                    break;
+
                 default:
                     break;
             }
