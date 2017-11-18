@@ -19,6 +19,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new Club();
                     break;
 
+                case "Dagger":
+                    weapon = new Dagger();
+                    break;
+
                 default:
                     break;
             }
@@ -78,5 +82,24 @@ namespace DND4ETests.WeaponTests
         {
             Assert.That(weapon.Properties, Is.Empty);
         }
+
+        [Then(@"a short range of (.*)")]
+        public void ThenAShortRangeOf(int range)
+        {
+            Assert.That(weapon.ShortRange, Is.EqualTo(range));
+        }
+
+        [Then(@"a long range of (.*)")]
+        public void ThenALongRangeOf(int range)
+        {
+            Assert.That(weapon.LongRange, Is.EqualTo(range));
+        }
+
+        [Then(@"the ""(.*)"" property")]
+        public void ThenTheProperty(string prop)
+        {
+            Assert.That(weapon.Properties, Does.Contain(prop));
+        }
+
     }
 }
