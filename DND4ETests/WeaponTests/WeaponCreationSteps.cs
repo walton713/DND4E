@@ -31,6 +31,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new Mace();
                     break;
 
+                case "Sickle":
+                    weapon = new Sickle();
+                    break;
+
                 default:
                     break;
             }

@@ -71,5 +71,6 @@ Scenario Outline: OneHandNoRangeOneGroupOneProperty
 	And is One-Handed
 
 	Examples: 
-	| weapon | prof | dienum | diesize | cost | weight | group | prop      |
-	| Mace   | 2    | 1      | 8       | 5    | 6      | Mace  | Versatile |
+	| weapon | prof | dienum | diesize | cost | weight | group       | prop      |
+	| Mace   | 2    | 1      | 8       | 5    | 6      | Mace        | Versatile |
+	| Sickle | 2    | 1      | 6       | 2    | 2      | Light Blade | Off-Hand  |
