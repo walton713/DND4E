@@ -12,6 +12,6 @@
         public int LongRange { get; set; } = 0;
         public decimal Cost { get; set; }
         public decimal Weight { get; set; }
-        public bool IsOneHanded { get; set; }
+        public bool IsTwoHanded { get; set; }
     }
 }

@@ -23,6 +23,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new Dagger();
                     break;
 
+                case "Javelin":
+                    weapon = new Javelin();
+                    break;
+
                 default:
                     break;
             }
@@ -82,6 +86,13 @@ namespace DND4ETests.WeaponTests
         {
             Assert.That(weapon.Properties, Is.Empty);
         }
+
+        [Then(@"is One-Handed")]
+        public void ThenIsOne_Handed()
+        {
+            Assert.That(weapon.IsTwoHanded, Is.False);
+        }
+
 
         [Then(@"a short range of (.*)")]
         public void ThenAShortRangeOf(int range)
