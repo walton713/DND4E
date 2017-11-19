@@ -51,6 +51,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new Quarterstaff();
                     break;
 
+                case "Scythe":
+                    weapon = new Scythe();
+                    break;
+
                 default:
                     break;
             }
