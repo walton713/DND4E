@@ -39,6 +39,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new Spear();
                     break;
 
+                case "Greatclub":
+                    weapon = new Greatclub();
+                    break;
+
                 default:
                     break;
             }
@@ -124,5 +128,10 @@ namespace DND4ETests.WeaponTests
             Assert.That(weapon.Properties, Does.Contain(prop));
         }
 
+        [Then(@"is Two-Handed")]
+        public void ThenIsTwo_Handed()
+        {
+            Assert.That(weapon.IsTwoHanded, Is.True);
+        }
     }
 }

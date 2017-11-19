@@ -75,3 +75,20 @@ Scenario Outline: OneHandNoRangeOneGroupOneProperty
 	| Mace   | 2    | 1      | 8       | 5    | 6      | Mace        | Versatile |
 	| Sickle | 2    | 1      | 6       | 2    | 2      | Light Blade | Off-Hand  |
 	| Spear  | 2    | 1      | 8       | 5    | 6      | Spear       | Versatile |
+
+Scenario Outline: TwoHandNoRangeOneGroupNoProperties
+	Given I have a "<weapon>"
+	Then it has the name "<weapon>"
+	And a <prof> proficiency bonus
+	And a die number of <dienum>
+	And a die size of <diesize>
+	And no range
+	And a cost of <cost>
+	And a weight of <weight>
+	And a group of "<group>"
+	And no properties
+	And is Two-Handed
+
+	Examples:
+	| weapon    | prof | dienum | diesize | cost | weight | group |
+	| Greatclub | 2    | 2      | 4       | 1    | 10     | Mace  |
