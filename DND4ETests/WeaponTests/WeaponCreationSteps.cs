@@ -47,6 +47,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new Morningstar();
                     break;
 
+                case "Quarterstaff":
+                    weapon = new Quarterstaff();
+                    break;
+
                 default:
                     break;
             }

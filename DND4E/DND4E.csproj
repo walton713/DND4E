@@ -58,6 +58,7 @@
     <Compile Include="Items\Weapons\Simple Melee\Javelin.cs" />
     <Compile Include="Items\Weapons\Simple Melee\Mace.cs" />
     <Compile Include="Items\Weapons\Simple Melee\Morningstar.cs" />
+    <Compile Include="Items\Weapons\Simple Melee\Quarterstaff.cs" />
     <Compile Include="Items\Weapons\Simple Melee\Sickle.cs" />
     <Compile Include="Items\Weapons\Simple Melee\Spear.cs" />
     <Compile Include="Items\Weapons\Weapon.cs" />

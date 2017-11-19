@@ -90,6 +90,7 @@ Scenario Outline: TwoHandNoRangeOneGroupNoProperties
 	And is Two-Handed
 
 	Examples:
-	| weapon      | prof | dienum | diesize | cost | weight | group |
-	| Greatclub   | 2    | 2      | 4       | 1    | 10     | Mace  |
-	| Morningstar | 2    | 1      | 10      | 10   | 8      | Mace  |
+	| weapon       | prof | dienum | diesize | cost | weight | group |
+	| Greatclub    | 2    | 2      | 4       | 1    | 10     | Mace  |
+	| Morningstar  | 2    | 1      | 10      | 10   | 8      | Mace  |
+	| Quarterstaff | 2    | 1      | 8       | 5    | 4      | Staff |
