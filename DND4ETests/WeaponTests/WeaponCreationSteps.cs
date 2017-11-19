@@ -43,6 +43,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new Greatclub();
                     break;
 
+                case "Morningstar":
+                    weapon = new Morningstar();
+                    break;
+
                 default:
                     break;
             }
