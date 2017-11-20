@@ -67,6 +67,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new Handaxe();
                     break;
 
+                case "Longsword":
+                    weapon = new Longsword();
+                    break;
+
                 default:
                     break;
             }

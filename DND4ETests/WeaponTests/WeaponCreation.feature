@@ -82,6 +82,7 @@ Scenario Outline: OneHandNoRangeOneGroupOneProperty
 	| Spear     | 2    | 1      | 8       | 5    | 6      | Spear       | Versatile | 1        |
 	| Battleaxe | 2    | 1      | 10      | 15   | 6      | Axe         | Versatile | 1        |
 	| Flail     | 2    | 1      | 10      | 10   | 5      | Flail       | Versatile | 1        |
+	| Longsword | 3    | 1      | 8       | 15   | 4      | Heavy Blade | Versatile | 1        |
 
 Scenario Outline: TwoHandNoRangeOneGroupNoProperties
 	Given I have a "<weapon>"
