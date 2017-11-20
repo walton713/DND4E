@@ -55,6 +55,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new Scythe();
                     break;
 
+                case "Battleaxe":
+                    weapon = new Battleaxe();
+                    break;
+
                 default:
                     break;
             }
@@ -145,5 +149,12 @@ namespace DND4ETests.WeaponTests
         {
             Assert.That(weapon.IsTwoHanded, Is.True);
         }
+
+        [Then(@"a quantity of (.*)")]
+        public void ThenAQuantityOf(int quantity)
+        {
+            Assert.That(weapon.Quantity, Is.EqualTo(quantity));
+        }
+
     }
 }

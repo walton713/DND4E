@@ -52,6 +52,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Items\Weapons\Military Melee\Battleaxe.cs" />
     <Compile Include="Items\Weapons\Simple Melee\Club.cs" />
     <Compile Include="Items\Weapons\Simple Melee\Dagger.cs" />
     <Compile Include="Items\Weapons\Simple Melee\Greatclub.cs" />

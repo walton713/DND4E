@@ -15,10 +15,11 @@ Scenario Outline: OneHandNoRangeOneGroupNoProperties
 	And a group of "<group>"
 	And no properties
 	And is One-Handed
+	And a quantity of <quantity>
 
 	Examples: 
-	| weapon | prof | dienum | diesize | cost | weight | group |
-	| Club   | 2    | 1      | 6       | 1    | 3      | Mace  |
+	| weapon | prof | dienum | diesize | cost | weight | group | quantity |
+	| Club   | 2    | 1      | 6       | 1    | 3      | Mace  | 1        |
 
 Scenario Outline: OneHandWithRangeOneGroupTwoProperties
 	Given I have a "<weapon>"
@@ -34,10 +35,11 @@ Scenario Outline: OneHandWithRangeOneGroupTwoProperties
 	And the "<prop1>" property
 	And the "<prop2>" property
 	And is One-Handed
+	And a quantity of <quantity>
 
 	Examples: 
-	| weapon | prof | dienum | diesize | short | long | cost | weight | group       | prop1    | prop2        |
-	| Dagger | 3    | 1      | 4       | 5     | 10   | 1    | 1      | Light Blade | Off-Hand | Light Thrown |
+	| weapon | prof | dienum | diesize | short | long | cost | weight | group       | prop1    | prop2        | quantity |
+	| Dagger | 3    | 1      | 4       | 5     | 10   | 1    | 1      | Light Blade | Off-Hand | Light Thrown | 1        |
 
 Scenario Outline: OneHandWithRangeOneGroupOneProperty
 	Given I have a "<weapon>"
@@ -52,10 +54,11 @@ Scenario Outline: OneHandWithRangeOneGroupOneProperty
 	And a group of "<group>"
 	And the "<prop>" property
 	And is One-Handed
+	And a quantity of <quantity>
 
 	Examples: 
-	| weapon  | prof | dienum | diesize | short | long | cost | weight | group | prop         |
-	| Javelin | 2    | 1      | 6       | 10    | 20   | 5    | 2      | Spear | Heavy Thrown |
+	| weapon  | prof | dienum | diesize | short | long | cost | weight | group | prop         | quantity |
+	| Javelin | 2    | 1      | 6       | 10    | 20   | 5    | 2      | Spear | Heavy Thrown | 1        |
 
 Scenario Outline: OneHandNoRangeOneGroupOneProperty
 	Given I have a "<weapon>"
@@ -69,12 +72,14 @@ Scenario Outline: OneHandNoRangeOneGroupOneProperty
 	And a group of "<group>"
 	And the "<prop>" property
 	And is One-Handed
+	And a quantity of <quantity>
 
 	Examples: 
-	| weapon | prof | dienum | diesize | cost | weight | group       | prop      |
-	| Mace   | 2    | 1      | 8       | 5    | 6      | Mace        | Versatile |
-	| Sickle | 2    | 1      | 6       | 2    | 2      | Light Blade | Off-Hand  |
-	| Spear  | 2    | 1      | 8       | 5    | 6      | Spear       | Versatile |
+	| weapon    | prof | dienum | diesize | cost | weight | group       | prop      | quantity |
+	| Mace      | 2    | 1      | 8       | 5    | 6      | Mace        | Versatile | 1        |
+	| Sickle    | 2    | 1      | 6       | 2    | 2      | Light Blade | Off-Hand  | 1        |
+	| Spear     | 2    | 1      | 8       | 5    | 6      | Spear       | Versatile | 1        |
+	| Battleaxe | 2    | 1      | 10      | 15   | 6      | Axe         | Versatile | 1        |
 
 Scenario Outline: TwoHandNoRangeOneGroupNoProperties
 	Given I have a "<weapon>"
@@ -88,10 +93,11 @@ Scenario Outline: TwoHandNoRangeOneGroupNoProperties
 	And a group of "<group>"
 	And no properties
 	And is Two-Handed
+	And a quantity of <quantity>
 
 	Examples:
-	| weapon       | prof | dienum | diesize | cost | weight | group       |
-	| Greatclub    | 2    | 2      | 4       | 1    | 10     | Mace        |
-	| Morningstar  | 2    | 1      | 10      | 10   | 8      | Mace        |
-	| Quarterstaff | 2    | 1      | 8       | 5    | 4      | Staff       |
-	| Scythe       | 2    | 2      | 4       | 5    | 10     | Heavy Blade |
+	| weapon       | prof | dienum | diesize | cost | weight | group       | quantity |
+	| Greatclub    | 2    | 2      | 4       | 1    | 10     | Mace        | 1        |
+	| Morningstar  | 2    | 1      | 10      | 10   | 8      | Mace        | 1        |
+	| Quarterstaff | 2    | 1      | 8       | 5    | 4      | Staff       | 1        |
+	| Scythe       | 2    | 2      | 4       | 5    | 10     | Heavy Blade | 1        |

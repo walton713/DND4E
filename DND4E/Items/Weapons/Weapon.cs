@@ -10,6 +10,7 @@
         public int DieSize { get; set; } = 6;
         public int ShortRange { get; set; } = 0;
         public int LongRange { get; set; } = 0;
+        public int Quantity { get; set; } = 1;
         public decimal Cost { get; set; }
         public decimal Weight { get; set; }
         public bool IsTwoHanded { get; set; }
