@@ -63,6 +63,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new Flail();
                     break;
 
+                case "Handaxe":
+                    weapon = new Handaxe();
+                    break;
+
                 default:
                     break;
             }

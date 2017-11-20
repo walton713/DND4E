@@ -3,7 +3,7 @@
     public class Weapon
     {
         public string Name { get; set; }
-        public string[] Groups { get; set; } = new string[] { };
+        public string[] Groups { get; set; }
         public string[] Properties { get; set; } = new string[] { };
         public int ProficiencyBonus { get; set; } = 2;
         public int DieNumber { get; set; } = 1;
