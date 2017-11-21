@@ -115,6 +115,14 @@ namespace DND4ETests.WeaponTests
                     weapon = new HeavyFlail();
                     break;
 
+                case "Longspear":
+                    weapon = new Longspear();
+                    break;
+
+                case "Maul":
+                    weapon = new Maul();
+                    break;
+
                 default:
                     break;
             }

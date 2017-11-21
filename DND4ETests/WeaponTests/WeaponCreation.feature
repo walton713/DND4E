@@ -129,6 +129,7 @@ Scenario Outline: TwoHandNoRangeOneGroupNoProperties
 	| Scythe       | 2    | 2      | 4       | 5    | 10     | Heavy Blade | 1        |
 	| Greatsword   | 3    | 1      | 10      | 30   | 8      | Heavy Blade | 1        |
 	| Heavy Flail  | 2    | 2      | 6       | 25   | 10     | Flail       | 1        |
+	| Maul         | 2    | 2      | 6       | 30   | 12     | Hammer      | 1        |
 
 Scenario Outline: TwoHandNoRangeOneGroupOneProperty
 	Given I have a "<weapon>"
@@ -165,6 +166,7 @@ Scenario Outline: TwoHandNoRangeTwoGroupsOneProperty
 	And a quantity of <quantity>
 
 	Examples: 
-	| weapon  | prof | dienum | diesize | cost | weight | group1      | group2  | prop  | quantity |
-	| Glaive  | 2    | 2      | 4       | 25   | 10     | Heavy Blade | Polearm | Reach | 1        |
-	| Halberd | 2    | 1      | 10      | 25   | 12     | Axe         | Polearm | Reach | 1        |
+	| weapon    | prof | dienum | diesize | cost | weight | group1      | group2  | prop  | quantity |
+	| Glaive    | 2    | 2      | 4       | 25   | 10     | Heavy Blade | Polearm | Reach | 1        |
+	| Halberd   | 2    | 1      | 10      | 25   | 12     | Axe         | Polearm | Reach | 1        |
+	| Longspear | 2    | 1      | 10      | 10   | 9      | Spear       | Polearm | Reach | 1        |

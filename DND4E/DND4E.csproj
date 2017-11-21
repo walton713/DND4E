@@ -61,7 +61,9 @@
     <Compile Include="Items\Weapons\Military Melee\Halberd.cs" />
     <Compile Include="Items\Weapons\Military Melee\Handaxe.cs" />
     <Compile Include="Items\Weapons\Military Melee\HeavyFlail.cs" />
+    <Compile Include="Items\Weapons\Military Melee\Longspear.cs" />
     <Compile Include="Items\Weapons\Military Melee\Longsword.cs" />
+    <Compile Include="Items\Weapons\Military Melee\Maul.cs" />
     <Compile Include="Items\Weapons\Military Melee\Scimitar.cs" />
     <Compile Include="Items\Weapons\Military Melee\ShortSword.cs" />
     <Compile Include="Items\Weapons\Military Melee\ThrowingHammer.cs" />
