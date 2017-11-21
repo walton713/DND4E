@@ -71,6 +71,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new Longsword();
                     break;
 
+                case "Scimitar":
+                    weapon = new Scimitar();
+                    break;
+
                 default:
                     break;
             }
