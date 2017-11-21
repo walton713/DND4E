@@ -91,6 +91,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new WarPick();
                     break;
 
+                case "Falchion":
+                    weapon = new Falchion();
+                    break;
+
                 default:
                     break;
             }

@@ -127,3 +127,21 @@ Scenario Outline: TwoHandNoRangeOneGroupNoProperties
 	| Morningstar  | 2    | 1      | 10      | 10   | 8      | Mace        | 1        |
 	| Quarterstaff | 2    | 1      | 8       | 5    | 4      | Staff       | 1        |
 	| Scythe       | 2    | 2      | 4       | 5    | 10     | Heavy Blade | 1        |
+
+Scenario Outline: TwoHandNoRangeOneGroupOneProperty
+	Given I have a "<weapon>"
+	Then it has the name "<weapon>"
+	And a <prof> proficiency bonus
+	And a die number of <dienum>
+	And a die size of <diesize>
+	And no range
+	And a cost of <cost>
+	And a weight of <weight>
+	And a group of "<group>"
+	And the "<prop>" property
+	And is Two-Handed
+	And a quantity of <quantity>
+
+	Examples: 
+	| weapon   | prof | dienum | diesize | cost | weight | group       | prop      | quantity |
+	| Falchion | 3    | 2      | 4       | 25   | 7      | Heavy Blade | High Crit | 1        |

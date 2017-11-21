@@ -53,6 +53,7 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Items\Weapons\Military Melee\Battleaxe.cs" />
+    <Compile Include="Items\Weapons\Military Melee\Falchion.cs" />
     <Compile Include="Items\Weapons\Military Melee\Flail.cs" />
     <Compile Include="Items\Weapons\Military Melee\Handaxe.cs" />
     <Compile Include="Items\Weapons\Military Melee\Longsword.cs" />
