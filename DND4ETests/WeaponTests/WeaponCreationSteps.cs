@@ -79,6 +79,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new ShortSword();
                     break;
 
+                case "Throwing Hammer":
+                    weapon = new ThrowingHammer();
+                    break;
+
                 default:
                     break;
             }
