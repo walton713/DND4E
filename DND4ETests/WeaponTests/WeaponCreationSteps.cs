@@ -99,6 +99,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new Glaive();
                     break;
 
+                case "Greataxe":
+                    weapon = new Greataxe();
+                    break;
+
                 default:
                     break;
             }

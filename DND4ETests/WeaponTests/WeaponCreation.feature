@@ -145,6 +145,7 @@ Scenario Outline: TwoHandNoRangeOneGroupOneProperty
 	Examples: 
 	| weapon   | prof | dienum | diesize | cost | weight | group       | prop      | quantity |
 	| Falchion | 3    | 2      | 4       | 25   | 7      | Heavy Blade | High Crit | 1        |
+	| Greataxe | 2    | 1      | 12      | 30   | 12     | Axe         | High Crit | 1        |
 
 Scenario Outline: TwoHandNoRangeTwoGroupsOneProperty
 	Given I have a "<weapon>"
