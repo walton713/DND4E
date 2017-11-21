@@ -341,6 +341,7 @@ this.ScenarioSetup(scenarioInfo);
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("TwoHandNoRangeTwoGroupsOneProperty")]
         [NUnit.Framework.TestCaseAttribute("Glaive", "2", "2", "4", "25", "10", "Heavy Blade", "Polearm", "Reach", "1", null)]
+        [NUnit.Framework.TestCaseAttribute("Halberd", "2", "1", "10", "25", "12", "Axe", "Polearm", "Reach", "1", null)]
         public virtual void TwoHandNoRangeTwoGroupsOneProperty(string weapon, string prof, string dienum, string diesize, string cost, string weight, string group1, string group2, string prop, string quantity, string[] exampleTags)
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("TwoHandNoRangeTwoGroupsOneProperty", exampleTags);

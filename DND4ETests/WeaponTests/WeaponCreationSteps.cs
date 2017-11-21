@@ -107,6 +107,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new Greatsword();
                     break;
 
+                case "Halberd":
+                    weapon = new Halberd();
+                    break;
+
                 default:
                     break;
             }

@@ -164,5 +164,6 @@ Scenario Outline: TwoHandNoRangeTwoGroupsOneProperty
 	And a quantity of <quantity>
 
 	Examples: 
-	| weapon | prof | dienum | diesize | cost | weight | group1      | group2  | prop  | quantity |
-	| Glaive | 2    | 2      | 4       | 25   | 10     | Heavy Blade | Polearm | Reach | 1        |
+	| weapon  | prof | dienum | diesize | cost | weight | group1      | group2  | prop  | quantity |
+	| Glaive  | 2    | 2      | 4       | 25   | 10     | Heavy Blade | Polearm | Reach | 1        |
+	| Halberd | 2    | 1      | 10      | 25   | 12     | Axe         | Polearm | Reach | 1        |
