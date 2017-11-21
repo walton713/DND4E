@@ -103,6 +103,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new Greataxe();
                     break;
 
+                case "Greatsword":
+                    weapon = new Greatsword();
+                    break;
+
                 default:
                     break;
             }

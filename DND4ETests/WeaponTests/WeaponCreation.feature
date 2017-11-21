@@ -127,6 +127,7 @@ Scenario Outline: TwoHandNoRangeOneGroupNoProperties
 	| Morningstar  | 2    | 1      | 10      | 10   | 8      | Mace        | 1        |
 	| Quarterstaff | 2    | 1      | 8       | 5    | 4      | Staff       | 1        |
 	| Scythe       | 2    | 2      | 4       | 5    | 10     | Heavy Blade | 1        |
+	| Greatsword   | 3    | 1      | 10      | 30   | 8      | Heavy Blade | 1        |
 
 Scenario Outline: TwoHandNoRangeOneGroupOneProperty
 	Given I have a "<weapon>"

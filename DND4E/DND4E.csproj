@@ -57,6 +57,7 @@
     <Compile Include="Items\Weapons\Military Melee\Flail.cs" />
     <Compile Include="Items\Weapons\Military Melee\Glaive.cs" />
     <Compile Include="Items\Weapons\Military Melee\Greataxe.cs" />
+    <Compile Include="Items\Weapons\Military Melee\Greatsword.cs" />
     <Compile Include="Items\Weapons\Military Melee\Handaxe.cs" />
     <Compile Include="Items\Weapons\Military Melee\Longsword.cs" />
     <Compile Include="Items\Weapons\Military Melee\Scimitar.cs" />
