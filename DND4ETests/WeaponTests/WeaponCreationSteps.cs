@@ -75,6 +75,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new Scimitar();
                     break;
 
+                case "Short Sword":
+                    weapon = new ShortSword();
+                    break;
+
                 default:
                     break;
             }

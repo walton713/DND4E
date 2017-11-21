@@ -76,14 +76,15 @@ Scenario Outline: OneHandNoRangeOneGroupOneProperty
 	And a quantity of <quantity>
 
 	Examples: 
-	| weapon    | prof | dienum | diesize | cost | weight | group       | prop      | quantity |
-	| Mace      | 2    | 1      | 8       | 5    | 6      | Mace        | Versatile | 1        |
-	| Sickle    | 2    | 1      | 6       | 2    | 2      | Light Blade | Off-Hand  | 1        |
-	| Spear     | 2    | 1      | 8       | 5    | 6      | Spear       | Versatile | 1        |
-	| Battleaxe | 2    | 1      | 10      | 15   | 6      | Axe         | Versatile | 1        |
-	| Flail     | 2    | 1      | 10      | 10   | 5      | Flail       | Versatile | 1        |
-	| Longsword | 3    | 1      | 8       | 15   | 4      | Heavy Blade | Versatile | 1        |
-	| Scimitar  | 2    | 1      | 8       | 10   | 4      | Heavy Blade | High Crit | 1        |
+	| weapon      | prof | dienum | diesize | cost | weight | group       | prop      | quantity |
+	| Mace        | 2    | 1      | 8       | 5    | 6      | Mace        | Versatile | 1        |
+	| Sickle      | 2    | 1      | 6       | 2    | 2      | Light Blade | Off-Hand  | 1        |
+	| Spear       | 2    | 1      | 8       | 5    | 6      | Spear       | Versatile | 1        |
+	| Battleaxe   | 2    | 1      | 10      | 15   | 6      | Axe         | Versatile | 1        |
+	| Flail       | 2    | 1      | 10      | 10   | 5      | Flail       | Versatile | 1        |
+	| Longsword   | 3    | 1      | 8       | 15   | 4      | Heavy Blade | Versatile | 1        |
+	| Scimitar    | 2    | 1      | 8       | 10   | 4      | Heavy Blade | High Crit | 1        |
+	| Short Sword | 3    | 1      | 6       | 10   | 2      | Light Blade | Off-Hand  | 1        |
 
 Scenario Outline: TwoHandNoRangeOneGroupNoProperties
 	Given I have a "<weapon>"
