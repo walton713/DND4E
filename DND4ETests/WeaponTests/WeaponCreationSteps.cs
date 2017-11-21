@@ -87,6 +87,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new Warhammer();
                     break;
 
+                case "War Pick":
+                    weapon = new WarPick();
+                    break;
+
                 default:
                     break;
             }

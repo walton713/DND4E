@@ -88,6 +88,25 @@ Scenario Outline: OneHandNoRangeOneGroupOneProperty
 	| Short Sword | 3    | 1      | 6       | 10   | 2      | Light Blade | Off-Hand  | 1        |
 	| Warhammer   | 2    | 1      | 10      | 15   | 5      | Hammer      | Versatile | 1        |
 
+Scenario Outline: OneHandNoRangeOneGroupTwoProperties
+	Given I have a "<weapon>"
+	Then it has the name "<weapon>"
+	And a <prof> proficiency bonus
+	And a die number of <dienum>
+	And a die size of <diesize>
+	And no range
+	And a cost of <cost>
+	And a weight of <weight>
+	And a group of "<group>"
+	And the "<prop1>" property
+	And the "<prop2>" property
+	And is One-Handed
+	And a quantity of <quantity>
+
+	Examples: 
+	| weapon   | prof | dienum | diesize | cost | weight | group | prop1     | prop2     | quantity |
+	| War Pick | 2    | 1      | 8       | 15   | 6      | Pick  | High Crit | Versatile | 1        |
+
 Scenario Outline: TwoHandNoRangeOneGroupNoProperties
 	Given I have a "<weapon>"
 	Then it has the name "<weapon>"
