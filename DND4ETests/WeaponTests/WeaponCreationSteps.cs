@@ -111,6 +111,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new Halberd();
                     break;
 
+                case "Heavy Flail":
+                    weapon = new HeavyFlail();
+                    break;
+
                 default:
                     break;
             }
