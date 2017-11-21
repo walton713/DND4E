@@ -83,6 +83,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new ThrowingHammer();
                     break;
 
+                case "Warhammer":
+                    weapon = new Warhammer();
+                    break;
+
                 default:
                     break;
             }

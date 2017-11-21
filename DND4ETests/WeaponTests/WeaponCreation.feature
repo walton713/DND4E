@@ -86,6 +86,7 @@ Scenario Outline: OneHandNoRangeOneGroupOneProperty
 	| Longsword   | 3    | 1      | 8       | 15   | 4      | Heavy Blade | Versatile | 1        |
 	| Scimitar    | 2    | 1      | 8       | 10   | 4      | Heavy Blade | High Crit | 1        |
 	| Short Sword | 3    | 1      | 6       | 10   | 2      | Light Blade | Off-Hand  | 1        |
+	| Warhammer   | 2    | 1      | 10      | 15   | 5      | Hammer      | Versatile | 1        |
 
 Scenario Outline: TwoHandNoRangeOneGroupNoProperties
 	Given I have a "<weapon>"
