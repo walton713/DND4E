@@ -95,6 +95,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new Falchion();
                     break;
 
+                case "Glaive":
+                    weapon = new Glaive();
+                    break;
+
                 default:
                     break;
             }

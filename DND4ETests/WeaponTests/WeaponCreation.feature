@@ -145,3 +145,22 @@ Scenario Outline: TwoHandNoRangeOneGroupOneProperty
 	Examples: 
 	| weapon   | prof | dienum | diesize | cost | weight | group       | prop      | quantity |
 	| Falchion | 3    | 2      | 4       | 25   | 7      | Heavy Blade | High Crit | 1        |
+
+Scenario Outline: TwoHandNoRangeTwoGroupsOneProperty
+	Given I have a "<weapon>"
+	Then it has the name "<weapon>"
+	And a <prof> proficiency bonus
+	And a die number of <dienum>
+	And a die size of <diesize>
+	And no range
+	And a cost of <cost>
+	And a weight of <weight>
+	And a group of "<group1>"
+	And a group of "<group2>"
+	And the "<prop>" property
+	And is Two-Handed
+	And a quantity of <quantity>
+
+	Examples: 
+	| weapon | prof | dienum | diesize | cost | weight | group1      | group2  | prop  | quantity |
+	| Glaive | 2    | 2      | 4       | 25   | 10     | Heavy Blade | Polearm | Reach | 1        |
