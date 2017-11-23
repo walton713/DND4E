@@ -134,11 +134,17 @@ namespace DND4ETests.WeaponTests
                 case "Rapier":
                     weapon = new Rapier();
                     break;
+
                 case "Spiked Chain":
                     weapon = new SpikedChain();
                     break;
+
                 case "Hand Crossbow":
                     weapon = new HandCrossbow();
+                    break;
+
+                case "Sling":
+                    weapon = new Sling();
                     break;
 
                 default:
