@@ -134,6 +134,9 @@ namespace DND4ETests.WeaponTests
                 case "Rapier":
                     weapon = new Rapier();
                     break;
+                case "Spiked Chain":
+                    weapon = new SpikedChain();
+                    break;
 
                 default:
                     break;
