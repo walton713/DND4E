@@ -137,6 +137,9 @@ namespace DND4ETests.WeaponTests
                 case "Spiked Chain":
                     weapon = new SpikedChain();
                     break;
+                case "Hand Crossbow":
+                    weapon = new HandCrossbow();
+                    break;
 
                 default:
                     break;

@@ -63,8 +63,9 @@ Scenario Outline: OneHandWithRangeOneGroupOneProperty
 	And is "<melee>"
 
 	Examples: 
-	| weapon  | prof | dienum | diesize | short | long | cost | weight | group | prop         | quantity | melee |
-	| Javelin | 2    | 1      | 6       | 10    | 20   | 5    | 2      | Spear | Heavy Thrown | 1        | true  |
+	| weapon        | prof | dienum | diesize | short | long | cost | weight | group    | prop         | quantity | melee |
+	| Javelin       | 2    | 1      | 6       | 10    | 20   | 5    | 2      | Spear    | Heavy Thrown | 1        | true  |
+	| Hand Crossbow | 2    | 1      | 6       | 10    | 20   | 25   | 2      | Crossbow | Load Free    | 1        | false |
 
 Scenario Outline: OneHandNoRangeOneGroupOneProperty
 	Given I have a "<weapon>"
