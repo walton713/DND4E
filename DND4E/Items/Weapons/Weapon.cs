@@ -14,5 +14,6 @@
         public decimal Cost { get; set; }
         public decimal Weight { get; set; }
         public bool IsTwoHanded { get; set; }
+        public bool IsMelee { get; set; } = true;
     }
 }

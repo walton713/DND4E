@@ -235,5 +235,10 @@ namespace DND4ETests.WeaponTests
             Assert.That(weapon.Quantity, Is.EqualTo(quantity));
         }
 
+        [Then(@"is ""(.*)""")]
+        public void ThenIs(bool melee)
+        {
+            Assert.That(weapon.IsMelee, Is.EqualTo(melee));
+        }
     }
 }
