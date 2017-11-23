@@ -105,8 +105,9 @@ Scenario Outline: OneHandNoRangeOneGroupTwoProperties
 	And a quantity of <quantity>
 
 	Examples: 
-	| weapon   | prof | dienum | diesize | cost | weight | group | prop1     | prop2     | quantity |
-	| War Pick | 2    | 1      | 8       | 15   | 6      | Pick  | High Crit | Versatile | 1        |
+	| weapon   | prof | dienum | diesize | cost | weight | group       | prop1     | prop2     | quantity |
+	| War Pick | 2    | 1      | 8       | 15   | 6      | Pick        | High Crit | Versatile | 1        |
+	| Katar    | 3    | 1      | 6       | 3    | 1      | Light Blade | Off-Hand  | High Crit | 1        |
 
 Scenario Outline: TwoHandNoRangeOneGroupNoProperties
 	Given I have a "<weapon>"

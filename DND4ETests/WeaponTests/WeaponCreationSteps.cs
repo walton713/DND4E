@@ -127,6 +127,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new BastardSword();
                     break;
 
+                case "Katar":
+                    weapon = new Katar();
+                    break;
+
                 default:
                     break;
             }
