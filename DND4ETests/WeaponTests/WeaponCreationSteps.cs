@@ -123,6 +123,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new Maul();
                     break;
 
+                case "Bastard Sword":
+                    weapon = new BastardSword();
+                    break;
+
                 default:
                     break;
             }

@@ -190,6 +190,7 @@ this.ScenarioSetup(scenarioInfo);
         [NUnit.Framework.TestCaseAttribute("Scimitar", "2", "1", "8", "10", "4", "Heavy Blade", "High Crit", "1", null)]
         [NUnit.Framework.TestCaseAttribute("Short Sword", "3", "1", "6", "10", "2", "Light Blade", "Off-Hand", "1", null)]
         [NUnit.Framework.TestCaseAttribute("Warhammer", "2", "1", "10", "15", "5", "Hammer", "Versatile", "1", null)]
+        [NUnit.Framework.TestCaseAttribute("Bastard Sword", "3", "1", "10", "30", "6", "Heavy Blade", "Versatile", "1", null)]
         public virtual void OneHandNoRangeOneGroupOneProperty(string weapon, string prof, string dienum, string diesize, string cost, string weight, string group, string prop, string quantity, string[] exampleTags)
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("OneHandNoRangeOneGroupOneProperty", exampleTags);
@@ -229,33 +230,33 @@ this.ScenarioSetup(scenarioInfo);
         public virtual void OneHandNoRangeOneGroupTwoProperties(string weapon, string prof, string dienum, string diesize, string cost, string weight, string group, string prop1, string prop2, string quantity, string[] exampleTags)
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("OneHandNoRangeOneGroupTwoProperties", exampleTags);
-#line 91
-this.ScenarioSetup(scenarioInfo);
 #line 92
- testRunner.Given(string.Format("I have a \"{0}\"", weapon), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+this.ScenarioSetup(scenarioInfo);
 #line 93
- testRunner.Then(string.Format("it has the name \"{0}\"", weapon), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given(string.Format("I have a \"{0}\"", weapon), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 94
- testRunner.And(string.Format("a {0} proficiency bonus", prof), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Then(string.Format("it has the name \"{0}\"", weapon), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 95
- testRunner.And(string.Format("a die number of {0}", dienum), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("a {0} proficiency bonus", prof), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 96
- testRunner.And(string.Format("a die size of {0}", diesize), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("a die number of {0}", dienum), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 97
- testRunner.And("no range", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("a die size of {0}", diesize), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 98
- testRunner.And(string.Format("a cost of {0}", cost), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("no range", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 99
- testRunner.And(string.Format("a weight of {0}", weight), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("a cost of {0}", cost), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 100
- testRunner.And(string.Format("a group of \"{0}\"", group), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("a weight of {0}", weight), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 101
- testRunner.And(string.Format("the \"{0}\" property", prop1), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("a group of \"{0}\"", group), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 102
- testRunner.And(string.Format("the \"{0}\" property", prop2), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("the \"{0}\" property", prop1), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 103
- testRunner.And("is One-Handed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("the \"{0}\" property", prop2), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 104
+ testRunner.And("is One-Handed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 105
  testRunner.And(string.Format("a quantity of {0}", quantity), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
@@ -273,31 +274,31 @@ this.ScenarioSetup(scenarioInfo);
         public virtual void TwoHandNoRangeOneGroupNoProperties(string weapon, string prof, string dienum, string diesize, string cost, string weight, string group, string quantity, string[] exampleTags)
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("TwoHandNoRangeOneGroupNoProperties", exampleTags);
-#line 110
-this.ScenarioSetup(scenarioInfo);
 #line 111
- testRunner.Given(string.Format("I have a \"{0}\"", weapon), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+this.ScenarioSetup(scenarioInfo);
 #line 112
- testRunner.Then(string.Format("it has the name \"{0}\"", weapon), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given(string.Format("I have a \"{0}\"", weapon), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 113
- testRunner.And(string.Format("a {0} proficiency bonus", prof), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Then(string.Format("it has the name \"{0}\"", weapon), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 114
- testRunner.And(string.Format("a die number of {0}", dienum), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("a {0} proficiency bonus", prof), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 115
- testRunner.And(string.Format("a die size of {0}", diesize), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("a die number of {0}", dienum), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 116
- testRunner.And("no range", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("a die size of {0}", diesize), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 117
- testRunner.And(string.Format("a cost of {0}", cost), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("no range", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 118
- testRunner.And(string.Format("a weight of {0}", weight), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("a cost of {0}", cost), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 119
- testRunner.And(string.Format("a group of \"{0}\"", group), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("a weight of {0}", weight), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 120
- testRunner.And("no properties", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("a group of \"{0}\"", group), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 121
- testRunner.And("is Two-Handed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("no properties", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 122
+ testRunner.And("is Two-Handed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 123
  testRunner.And(string.Format("a quantity of {0}", quantity), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
@@ -310,31 +311,31 @@ this.ScenarioSetup(scenarioInfo);
         public virtual void TwoHandNoRangeOneGroupOneProperty(string weapon, string prof, string dienum, string diesize, string cost, string weight, string group, string prop, string quantity, string[] exampleTags)
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("TwoHandNoRangeOneGroupOneProperty", exampleTags);
-#line 134
-this.ScenarioSetup(scenarioInfo);
 #line 135
- testRunner.Given(string.Format("I have a \"{0}\"", weapon), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+this.ScenarioSetup(scenarioInfo);
 #line 136
- testRunner.Then(string.Format("it has the name \"{0}\"", weapon), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given(string.Format("I have a \"{0}\"", weapon), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 137
- testRunner.And(string.Format("a {0} proficiency bonus", prof), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Then(string.Format("it has the name \"{0}\"", weapon), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 138
- testRunner.And(string.Format("a die number of {0}", dienum), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("a {0} proficiency bonus", prof), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 139
- testRunner.And(string.Format("a die size of {0}", diesize), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("a die number of {0}", dienum), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 140
- testRunner.And("no range", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("a die size of {0}", diesize), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 141
- testRunner.And(string.Format("a cost of {0}", cost), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("no range", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 142
- testRunner.And(string.Format("a weight of {0}", weight), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("a cost of {0}", cost), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 143
- testRunner.And(string.Format("a group of \"{0}\"", group), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("a weight of {0}", weight), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 144
- testRunner.And(string.Format("the \"{0}\" property", prop), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("a group of \"{0}\"", group), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 145
- testRunner.And("is Two-Handed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("the \"{0}\" property", prop), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 146
+ testRunner.And("is Two-Handed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 147
  testRunner.And(string.Format("a quantity of {0}", quantity), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
@@ -348,33 +349,33 @@ this.ScenarioSetup(scenarioInfo);
         public virtual void TwoHandNoRangeTwoGroupsOneProperty(string weapon, string prof, string dienum, string diesize, string cost, string weight, string group1, string group2, string prop, string quantity, string[] exampleTags)
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("TwoHandNoRangeTwoGroupsOneProperty", exampleTags);
-#line 153
-this.ScenarioSetup(scenarioInfo);
 #line 154
- testRunner.Given(string.Format("I have a \"{0}\"", weapon), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+this.ScenarioSetup(scenarioInfo);
 #line 155
- testRunner.Then(string.Format("it has the name \"{0}\"", weapon), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given(string.Format("I have a \"{0}\"", weapon), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 156
- testRunner.And(string.Format("a {0} proficiency bonus", prof), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Then(string.Format("it has the name \"{0}\"", weapon), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 157
- testRunner.And(string.Format("a die number of {0}", dienum), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("a {0} proficiency bonus", prof), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 158
- testRunner.And(string.Format("a die size of {0}", diesize), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("a die number of {0}", dienum), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 159
- testRunner.And("no range", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("a die size of {0}", diesize), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 160
- testRunner.And(string.Format("a cost of {0}", cost), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("no range", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 161
- testRunner.And(string.Format("a weight of {0}", weight), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("a cost of {0}", cost), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 162
- testRunner.And(string.Format("a group of \"{0}\"", group1), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("a weight of {0}", weight), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 163
- testRunner.And(string.Format("a group of \"{0}\"", group2), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("a group of \"{0}\"", group1), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 164
- testRunner.And(string.Format("the \"{0}\" property", prop), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("a group of \"{0}\"", group2), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 165
- testRunner.And("is Two-Handed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("the \"{0}\" property", prop), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 166
+ testRunner.And("is Two-Handed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 167
  testRunner.And(string.Format("a quantity of {0}", quantity), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
