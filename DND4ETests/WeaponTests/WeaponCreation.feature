@@ -18,8 +18,9 @@ Scenario Outline: OneHandNoRangeOneGroupNoProperties
 	And a quantity of <quantity>
 
 	Examples: 
-	| weapon | prof | dienum | diesize | cost | weight | group | quantity |
-	| Club   | 2    | 1      | 6       | 1    | 3      | Mace  | 1        |
+	| weapon | prof | dienum | diesize | cost | weight | group       | quantity |
+	| Club   | 2    | 1      | 6       | 1    | 3      | Mace        | 1        |
+	| Rapier | 3    | 1      | 8       | 25   | 2      | Light Blade | 1        |
 
 Scenario Outline: OneHandWithRangeOneGroupTwoProperties
 	Given I have a "<weapon>"

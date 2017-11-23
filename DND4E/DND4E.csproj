@@ -81,6 +81,7 @@
     <Compile Include="Items\Weapons\Simple Melee\Spear.cs" />
     <Compile Include="Items\Weapons\Superior Melee\BastardSword.cs" />
     <Compile Include="Items\Weapons\Superior Melee\Katar.cs" />
+    <Compile Include="Items\Weapons\Superior Melee\Rapier.cs" />
     <Compile Include="Items\Weapons\Weapon.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

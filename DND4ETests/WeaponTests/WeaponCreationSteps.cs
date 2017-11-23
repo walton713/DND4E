@@ -131,6 +131,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new Katar();
                     break;
 
+                case "Rapier":
+                    weapon = new Rapier();
+                    break;
+
                 default:
                     break;
             }
