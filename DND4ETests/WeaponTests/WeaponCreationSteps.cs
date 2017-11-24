@@ -163,6 +163,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new Shuriken();
                     break;
 
+                case "Spiked Gauntlet":
+                    weapon = new SpikedGauntlet();
+                    break;
+
                 default:
                     break;
             }
