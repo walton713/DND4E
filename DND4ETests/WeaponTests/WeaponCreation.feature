@@ -116,9 +116,10 @@ Scenario Outline: OneHandNoRangeOneGroupTwoProperties
 	And is "<melee>"
 
 	Examples: 
-	| weapon   | prof | dienum | diesize | cost | weight | group       | prop1     | prop2     | quantity | melee |
-	| War Pick | 2    | 1      | 8       | 15   | 6      | Pick        | High Crit | Versatile | 1        | true  |
-	| Katar    | 3    | 1      | 6       | 3    | 1      | Light Blade | Off-Hand  | High Crit | 1        | true  |
+	| weapon         | prof | dienum | diesize | cost | weight | group       | prop1     | prop2     | quantity | melee |
+	| War Pick       | 2    | 1      | 8       | 15   | 6      | Pick        | High Crit | Versatile | 1        | true  |
+	| Katar          | 3    | 1      | 6       | 3    | 1      | Light Blade | Off-Hand  | High Crit | 1        | true  |
+	| Light War Pick | 2    | 1      | 6       | 10   | 4      | Pick        | High Crit | Off-Hand  | 1        | true  |
 
 Scenario Outline: OneHandNoRangeTwoGroupsTwoProperties
 	Given I have a "<weapon>"

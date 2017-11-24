@@ -175,6 +175,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new Khopesh();
                     break;
 
+                case "Light War Pick":
+                    weapon = new LightWarPick();
+                    break;
+
                 default:
                     break;
             }
