@@ -147,6 +147,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new Sling();
                     break;
 
+                case "Crossbow":
+                    weapon = new Crossbow();
+                    break;
+
                 default:
                     break;
             }
