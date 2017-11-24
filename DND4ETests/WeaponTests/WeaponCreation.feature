@@ -204,3 +204,4 @@ Scenario Outline: : TwoHandWithRangeOneGroupOneProperty
 	Examples: 
 	| weapon   | prof | dienum | diesize | short | long | cost | weight | group    | prop       | quantity | melee |
 	| Crossbow | 2    | 1      | 8       | 15    | 30   | 25   | 4      | Crossbow | Load Minor | 1        | false |
+	| Longbow  | 2    | 1      | 10      | 20    | 40   | 30   | 3      | Bow      | Load Free  | 1        | false |

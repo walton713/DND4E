@@ -151,6 +151,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new Crossbow();
                     break;
 
+                case "Longbow":
+                    weapon = new Longbow();
+                    break;
+
                 default:
                     break;
             }
