@@ -185,7 +185,7 @@ Scenario Outline: TwoHandNoRangeTwoGroupsOneProperty
 	| Halberd   | 2    | 1      | 10      | 25   | 12     | Axe         | Polearm | Reach | 1        | true  |
 	| Longspear | 2    | 1      | 10      | 10   | 9      | Spear       | Polearm | Reach | 1        | true  |
 
-Scenario Outline: : TwoHandWithRangeOneGroupOneProperty
+Scenario Outline: TwoHandWithRangeOneGroupOneProperty
 	Given I have a "<weapon>"
 	Then it has the name "<weapon>"
 	And a <prof> proficiency bonus
@@ -205,3 +205,24 @@ Scenario Outline: : TwoHandWithRangeOneGroupOneProperty
 	| weapon   | prof | dienum | diesize | short | long | cost | weight | group    | prop       | quantity | melee |
 	| Crossbow | 2    | 1      | 8       | 15    | 30   | 25   | 4      | Crossbow | Load Minor | 1        | false |
 	| Longbow  | 2    | 1      | 10      | 20    | 40   | 30   | 3      | Bow      | Load Free  | 1        | false |
+
+Scenario Outline: TwoHandWithRangeOneGroupTwoProperties
+	Given I have a "<weapon>"
+	Then it has the name "<weapon>"
+	And a <prof> proficiency bonus
+	And a die number of <dienum>
+	And a die size of <diesize>
+	And a short range of <short>
+	And a long range of <long>
+	And a cost of <cost>
+	And a weight of <weight>
+	And a group of "<group>"
+	And the "<prop1>" property
+	And the "<prop2>" property
+	And is Two-Handed
+	And a quantity of <quantity>
+	And is "<melee>"
+
+	Examples: 
+	| weapon   | prof | dienum | diesize | short | long | cost | weight | group | prop1     | prop2 | quantity | melee |
+	| Shortbow | 2    | 1      | 8       | 15    | 30   | 25   | 2      | Bow   | Load Free | Small | 1        | false |
