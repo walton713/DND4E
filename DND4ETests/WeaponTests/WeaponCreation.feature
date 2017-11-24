@@ -97,6 +97,7 @@ Scenario Outline: OneHandNoRangeOneGroupOneProperty
 	| Warhammer       | 2    | 1      | 10      | 15   | 5      | Hammer      | Versatile | 1        | true  |
 	| Bastard Sword   | 3    | 1      | 10      | 30   | 6      | Heavy Blade | Versatile | 1        | true  |
 	| Spiked Gauntlet | 2    | 1      | 6       | 5    | 1      | Unarmed     | Off-Hand  | 1        | true  |
+	| Broadsword      | 2    | 1      | 10      | 20   | 5      | Heavy Blade | Versatile | 1        | true  |
 
 Scenario Outline: OneHandNoRangeOneGroupTwoProperties
 	Given I have a "<weapon>"

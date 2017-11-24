@@ -167,6 +167,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new SpikedGauntlet();
                     break;
 
+                case "Broadsword":
+                    weapon = new Broadsword();
+                    break;
+
                 default:
                     break;
             }
