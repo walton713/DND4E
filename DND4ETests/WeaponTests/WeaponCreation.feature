@@ -120,6 +120,27 @@ Scenario Outline: OneHandNoRangeOneGroupTwoProperties
 	| War Pick | 2    | 1      | 8       | 15   | 6      | Pick        | High Crit | Versatile | 1        | true  |
 	| Katar    | 3    | 1      | 6       | 3    | 1      | Light Blade | Off-Hand  | High Crit | 1        | true  |
 
+Scenario Outline: OneHandNoRangeTwoGroupsTwoProperties
+	Given I have a "<weapon>"
+	Then it has the name "<weapon>"
+	And a <prof> proficiency bonus
+	And a die number of <dienum>
+	And a die size of <diesize>
+	And no range
+	And a cost of <cost>
+	And a weight of <weight>
+	And a group of "<group1>"
+	And a group of "<group2>"
+	And the "<prop1>" property
+	And the "<prop2>" property
+	And is One-Handed
+	And a quantity of <quantity>
+	And is "<melee>"
+
+	Examples: 
+	| weapon  | prof | dienum | diesize | cost | weight | group1 | group2      | prop1    | prop2     | quantity | melee |
+	| Khopesh | 2    | 1      | 8       | 20   | 8      | Axe    | Heavy Blade | Brutal 1 | Versatile | 1        | true  |
+
 Scenario Outline: TwoHandNoRangeOneGroupNoProperties
 	Given I have a "<weapon>"
 	Then it has the name "<weapon>"

@@ -171,6 +171,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new Broadsword();
                     break;
 
+                case "Khopesh":
+                    weapon = new Khopesh();
+                    break;
+
                 default:
                     break;
             }
