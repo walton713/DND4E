@@ -159,6 +159,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new Shortbow();
                     break;
 
+                case "Shuriken":
+                    weapon = new Shuriken();
+                    break;
+
                 default:
                     break;
             }
