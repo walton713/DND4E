@@ -98,6 +98,7 @@ Scenario Outline: OneHandNoRangeOneGroupOneProperty
 	| Bastard Sword   | 3    | 1      | 10      | 30   | 6      | Heavy Blade | Versatile | 1        | true  |
 	| Spiked Gauntlet | 2    | 1      | 6       | 5    | 1      | Unarmed     | Off-Hand  | 1        | true  |
 	| Broadsword      | 2    | 1      | 10      | 20   | 5      | Heavy Blade | Versatile | 1        | true  |
+	| Scourge         | 2    | 1      | 8       | 3    | 2      | Flail       | Off-Hand  | 1        | true  |
 
 Scenario Outline: OneHandNoRangeOneGroupTwoProperties
 	Given I have a "<weapon>"

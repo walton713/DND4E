@@ -179,6 +179,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new LightWarPick();
                     break;
 
+                case "Scourge":
+                    weapon = new Scourge();
+                    break;
+
                 default:
                     break;
             }

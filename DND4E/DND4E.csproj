@@ -68,6 +68,7 @@
     <Compile Include="Items\Weapons\Military Melee\Longsword.cs" />
     <Compile Include="Items\Weapons\Military Melee\Maul.cs" />
     <Compile Include="Items\Weapons\Military Melee\Scimitar.cs" />
+    <Compile Include="Items\Weapons\Military Melee\Scourge.cs" />
     <Compile Include="Items\Weapons\Military Melee\ShortSword.cs" />
     <Compile Include="Items\Weapons\Military Melee\ThrowingHammer.cs" />
     <Compile Include="Items\Weapons\Military Melee\Warhammer.cs" />
