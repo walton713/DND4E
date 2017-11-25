@@ -187,6 +187,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new Trident();
                     break;
 
+                case "Heavy War Pick":
+                    weapon = new HeavyWarPick();
+                    break;
+
                 default:
                     break;
             }

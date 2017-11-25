@@ -62,6 +62,7 @@
     <Compile Include="Items\Weapons\Military Melee\Halberd.cs" />
     <Compile Include="Items\Weapons\Military Melee\Handaxe.cs" />
     <Compile Include="Items\Weapons\Military Melee\HeavyFlail.cs" />
+    <Compile Include="Items\Weapons\Military Melee\HeavyWarPick.cs" />
     <Compile Include="Items\Weapons\Military Melee\Khopesh.cs" />
     <Compile Include="Items\Weapons\Military Melee\LightWarPick.cs" />
     <Compile Include="Items\Weapons\Military Melee\Longspear.cs" />

@@ -185,10 +185,11 @@ Scenario Outline: TwoHandNoRangeOneGroupOneProperty
 	And is "<melee>"
 
 	Examples: 
-	| weapon       | prof | dienum | diesize | cost | weight | group       | prop      | quantity | melee |
-	| Falchion     | 3    | 2      | 4       | 25   | 7      | Heavy Blade | High Crit | 1        | true  |
-	| Greataxe     | 2    | 1      | 12      | 30   | 12     | Axe         | High Crit | 1        | true  |
-	| Spiked Chain | 3    | 2      | 4       | 30   | 10     | Flail       | Reach     | 1        | true  |
+	| weapon         | prof | dienum | diesize | cost | weight | group       | prop      | quantity | melee |
+	| Falchion       | 3    | 2      | 4       | 25   | 7      | Heavy Blade | High Crit | 1        | true  |
+	| Greataxe       | 2    | 1      | 12      | 30   | 12     | Axe         | High Crit | 1        | true  |
+	| Spiked Chain   | 3    | 2      | 4       | 30   | 10     | Flail       | Reach     | 1        | true  |
+	| Heavy War Pick | 2    | 1      | 12      | 20   | 8      | Pick        | High Crit | 1        | true  |
 
 Scenario Outline: TwoHandNoRangeTwoGroupsOneProperty
 	Given I have a "<weapon>"
