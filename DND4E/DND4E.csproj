@@ -71,6 +71,7 @@
     <Compile Include="Items\Weapons\Military Melee\Scourge.cs" />
     <Compile Include="Items\Weapons\Military Melee\ShortSword.cs" />
     <Compile Include="Items\Weapons\Military Melee\ThrowingHammer.cs" />
+    <Compile Include="Items\Weapons\Military Melee\Trident.cs" />
     <Compile Include="Items\Weapons\Military Melee\Warhammer.cs" />
     <Compile Include="Items\Weapons\Military Melee\WarPick.cs" />
     <Compile Include="Items\Weapons\Military Ranged\Longbow.cs" />

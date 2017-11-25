@@ -183,6 +183,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new Scourge();
                     break;
 
+                case "Trident":
+                    weapon = new Trident();
+                    break;
+
                 default:
                     break;
             }

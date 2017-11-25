@@ -41,10 +41,11 @@ Scenario Outline: OneHandWithRangeOneGroupTwoProperties
 	And is "<melee>"
 
 	Examples: 
-	| weapon          | prof | dienum | diesize | short | long | cost | weight | group       | prop1    | prop2        | quantity | melee |
-	| Dagger          | 3    | 1      | 4       | 5     | 10   | 1    | 1      | Light Blade | Off-Hand | Light Thrown | 1        | true  |
-	| Handaxe         | 2    | 1      | 6       | 5     | 10   | 5    | 3      | Axe         | Off-Hand | Heavy Thrown | 1        | true  |
-	| Throwing Hammer | 2    | 1      | 6       | 5     | 10   | 5    | 2      | Hammer      | Off-Hand | Heavy Thrown | 1        | true  |
+	| weapon          | prof | dienum | diesize | short | long | cost | weight | group       | prop1     | prop2        | quantity | melee |
+	| Dagger          | 3    | 1      | 4       | 5     | 10   | 1    | 1      | Light Blade | Off-Hand  | Light Thrown | 1        | true  |
+	| Handaxe         | 2    | 1      | 6       | 5     | 10   | 5    | 3      | Axe         | Off-Hand  | Heavy Thrown | 1        | true  |
+	| Throwing Hammer | 2    | 1      | 6       | 5     | 10   | 5    | 2      | Hammer      | Off-Hand  | Heavy Thrown | 1        | true  |
+	| Trident         | 2    | 1      | 8       | 3     | 6    | 10   | 4      | Spear       | Versatile | Heavy Thrown | 1        | true  |
 
 Scenario Outline: OneHandWithRangeOneGroupOneProperty
 	Given I have a "<weapon>"
