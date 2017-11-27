@@ -191,6 +191,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new HeavyWarPick();
                     break;
 
+                case "Craghammer":
+                    weapon = new Craghammer();
+                    break;
+
                 default:
                     break;
             }

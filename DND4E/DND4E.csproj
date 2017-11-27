@@ -92,6 +92,7 @@
     <Compile Include="Items\Weapons\Simple Ranged\HandCrossbow.cs" />
     <Compile Include="Items\Weapons\Simple Ranged\Sling.cs" />
     <Compile Include="Items\Weapons\Superior Melee\BastardSword.cs" />
+    <Compile Include="Items\Weapons\Superior Melee\Craghammer.cs" />
     <Compile Include="Items\Weapons\Superior Melee\Katar.cs" />
     <Compile Include="Items\Weapons\Superior Melee\Rapier.cs" />
     <Compile Include="Items\Weapons\Superior Melee\SpikedChain.cs" />
