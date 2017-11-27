@@ -94,6 +94,7 @@
     <Compile Include="Items\Weapons\Superior Melee\BastardSword.cs" />
     <Compile Include="Items\Weapons\Superior Melee\Craghammer.cs" />
     <Compile Include="Items\Weapons\Superior Melee\Katar.cs" />
+    <Compile Include="Items\Weapons\Superior Melee\Kukri.cs" />
     <Compile Include="Items\Weapons\Superior Melee\Rapier.cs" />
     <Compile Include="Items\Weapons\Superior Melee\SpikedChain.cs" />
     <Compile Include="Items\Weapons\Superior Ranged\Shuriken.cs" />

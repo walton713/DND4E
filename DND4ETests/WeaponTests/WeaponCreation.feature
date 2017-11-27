@@ -123,6 +123,7 @@ Scenario Outline: OneHandNoRangeOneGroupTwoProperties
 	| Katar          | 3    | 1      | 6       | 3    | 1      | Light Blade | Off-Hand  | High Crit | 1        | true  |
 	| Light War Pick | 2    | 1      | 6       | 10   | 4      | Pick        | High Crit | Off-Hand  | 1        | true  |
 	| Craghammer     | 2    | 1      | 10      | 20   | 6      | Hammer      | Brutal 2  | Versatile | 1        | true  |
+	| Kukri          | 2    | 1      | 6       | 10   | 2      | Light Blade | Brutal 1  | Off-Hand  | 1        | true  |
 
 Scenario Outline: OneHandNoRangeTwoGroupsTwoProperties
 	Given I have a "<weapon>"

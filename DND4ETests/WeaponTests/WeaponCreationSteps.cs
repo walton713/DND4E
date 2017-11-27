@@ -195,6 +195,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new Craghammer();
                     break;
 
+                case "Kukri":
+                    weapon = new Kukri();
+                    break;
+
                 default:
                     break;
             }
