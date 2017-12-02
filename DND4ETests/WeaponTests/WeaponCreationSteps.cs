@@ -199,6 +199,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new Kukri();
                     break;
 
+                case "Parrying Dagger":
+                    weapon = new ParryingDagger();
+                    break;
+
                 default:
                     break;
             }
