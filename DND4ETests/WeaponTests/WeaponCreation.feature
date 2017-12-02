@@ -87,20 +87,21 @@ Scenario Outline: OneHandNoRangeOneGroupOneProperty
 	And is "<melee>"
 
 	Examples: 
-	| weapon          | prof | dienum | diesize | cost | weight | group       | prop      | quantity | melee |
-	| Mace            | 2    | 1      | 8       | 5    | 6      | Mace        | Versatile | 1        | true  |
-	| Sickle          | 2    | 1      | 6       | 2    | 2      | Light Blade | Off-Hand  | 1        | true  |
-	| Spear           | 2    | 1      | 8       | 5    | 6      | Spear       | Versatile | 1        | true  |
-	| Battleaxe       | 2    | 1      | 10      | 15   | 6      | Axe         | Versatile | 1        | true  |
-	| Flail           | 2    | 1      | 10      | 10   | 5      | Flail       | Versatile | 1        | true  |
-	| Longsword       | 3    | 1      | 8       | 15   | 4      | Heavy Blade | Versatile | 1        | true  |
-	| Scimitar        | 2    | 1      | 8       | 10   | 4      | Heavy Blade | High Crit | 1        | true  |
-	| Short Sword     | 3    | 1      | 6       | 10   | 2      | Light Blade | Off-Hand  | 1        | true  |
-	| Warhammer       | 2    | 1      | 10      | 15   | 5      | Hammer      | Versatile | 1        | true  |
-	| Bastard Sword   | 3    | 1      | 10      | 30   | 6      | Heavy Blade | Versatile | 1        | true  |
-	| Spiked Gauntlet | 2    | 1      | 6       | 5    | 1      | Unarmed     | Off-Hand  | 1        | true  |
-	| Broadsword      | 2    | 1      | 10      | 20   | 5      | Heavy Blade | Versatile | 1        | true  |
-	| Scourge         | 2    | 1      | 8       | 3    | 2      | Flail       | Off-Hand  | 1        | true  |
+	| weapon              | prof | dienum | diesize | cost | weight | group       | prop      | quantity | melee |
+	| Mace                | 2    | 1      | 8       | 5    | 6      | Mace        | Versatile | 1        | true  |
+	| Sickle              | 2    | 1      | 6       | 2    | 2      | Light Blade | Off-Hand  | 1        | true  |
+	| Spear               | 2    | 1      | 8       | 5    | 6      | Spear       | Versatile | 1        | true  |
+	| Battleaxe           | 2    | 1      | 10      | 15   | 6      | Axe         | Versatile | 1        | true  |
+	| Flail               | 2    | 1      | 10      | 10   | 5      | Flail       | Versatile | 1        | true  |
+	| Longsword           | 3    | 1      | 8       | 15   | 4      | Heavy Blade | Versatile | 1        | true  |
+	| Scimitar            | 2    | 1      | 8       | 10   | 4      | Heavy Blade | High Crit | 1        | true  |
+	| Short Sword         | 3    | 1      | 6       | 10   | 2      | Light Blade | Off-Hand  | 1        | true  |
+	| Warhammer           | 2    | 1      | 10      | 15   | 5      | Hammer      | Versatile | 1        | true  |
+	| Bastard Sword       | 3    | 1      | 10      | 30   | 6      | Heavy Blade | Versatile | 1        | true  |
+	| Spiked Gauntlet     | 2    | 1      | 6       | 5    | 1      | Unarmed     | Off-Hand  | 1        | true  |
+	| Broadsword          | 2    | 1      | 10      | 20   | 5      | Heavy Blade | Versatile | 1        | true  |
+	| Scourge             | 2    | 1      | 8       | 3    | 2      | Flail       | Off-Hand  | 1        | true  |
+	| Triple-Headed Flail | 3    | 1      | 10      | 15   | 6      | Flail       | Versatile | 1        | true  |
 
 Scenario Outline: OneHandNoRangeOneGroupTwoProperties
 	Given I have a "<weapon>"

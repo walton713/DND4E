@@ -207,6 +207,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new Tratnyr();
                     break;
 
+                case "Triple-Headed Flail":
+                    weapon = new TripleHeadedFlail();
+                    break;
+
                 default:
                     break;
             }
