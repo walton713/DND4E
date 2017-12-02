@@ -98,6 +98,7 @@
     <Compile Include="Items\Weapons\Superior Melee\ParryingDagger.cs" />
     <Compile Include="Items\Weapons\Superior Melee\Rapier.cs" />
     <Compile Include="Items\Weapons\Superior Melee\SpikedChain.cs" />
+    <Compile Include="Items\Weapons\Superior Melee\Tratnyr.cs" />
     <Compile Include="Items\Weapons\Superior Ranged\Shuriken.cs" />
     <Compile Include="Items\Weapons\Weapon.cs" />
     <Compile Include="Program.cs" />

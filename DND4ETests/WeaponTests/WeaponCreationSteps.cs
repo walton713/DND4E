@@ -203,6 +203,10 @@ namespace DND4ETests.WeaponTests
                     weapon = new ParryingDagger();
                     break;
 
+                case "Tratnyr":
+                    weapon = new Tratnyr();
+                    break;
+
                 default:
                     break;
             }

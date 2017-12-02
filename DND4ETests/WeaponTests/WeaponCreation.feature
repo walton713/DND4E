@@ -46,6 +46,7 @@ Scenario Outline: OneHandWithRangeOneGroupTwoProperties
 	| Handaxe         | 2    | 1      | 6       | 5     | 10   | 5    | 3      | Axe         | Off-Hand  | Heavy Thrown | 1        | true  |
 	| Throwing Hammer | 2    | 1      | 6       | 5     | 10   | 5    | 2      | Hammer      | Off-Hand  | Heavy Thrown | 1        | true  |
 	| Trident         | 2    | 1      | 8       | 3     | 6    | 10   | 4      | Spear       | Versatile | Heavy Thrown | 1        | true  |
+	| Tratnyr         | 2    | 1      | 8       | 10    | 20   | 10   | 5      | Spear       | Versatile | Heavy Thrown | 1        | true  |
 
 Scenario Outline: OneHandWithRangeOneGroupOneProperty
 	Given I have a "<weapon>"
